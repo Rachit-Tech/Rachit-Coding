@@ -1,0 +1,6 @@
+a=("7")
+b=("True")
+a=int(a)
+b=bool(b)
+print("Type of a is", type(a))
+print("Type of b is", type(b))
