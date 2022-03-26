@@ -9,14 +9,107 @@
     <title>ValDevlops</title>
 </head>
 <body>
+    <h1>Headings</h1>
     <h1>Hello World</h1>
     <h2>Hello World</h2>
     <h3>Hello World</h3>
     <h4>Hello World</h4>
     <h5>Hello World</h5>
     <h6>Hello World</h6>
+    <hr>
+    <h1>Paragraph</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et hic, laboriosam inventore recusandae obcaecati nihil tempora voluptate veniam non earum reprehenderit harum quae nam neque architecto alias unde iste quia.</p>
     <hr>
+    <h1>Font</h1>
     <p>Nostrum dolore rem totam nam? <strong>adipisci sunt ea</strong> <em>possimus placeat</em>  minus alias magni aperiam ipsam tenetur dignissimos facilis excepturi tempora totam vel iste tempore nisi officia, <br> officiis?</p>
+    <hr>
+    <h1>Links</h1>
+    <a href="http://www.google.com" target="_blank">Go to google</a><br>
+    <a href="http://www.twitter.com" target="_blank">Go to twitter</a><br>
+    <a href="http://www.linkedin.com" target="_blank">Go to linkden</a><br>
+    <a href="http://www.facebook.com" target="_blank">Go to facebook</a><br>
+    <hr>
+    <h1>Images</h1>
+    <img src="Games.jpg" alt="Error" width="1330">
+    <img src="Logo.jpg" alt="Error" width="250">
+    <hr>
+    <h1>Lists</h1>
+    <ul type="circle"><!--Disk,Square and Circle-->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ol type="a"><!--1,A,a,I and i-->
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <hr>
+    <h1>Tables</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Someone</td>
+                <td>Number</td>
+                <td>Role</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h1>Forms</h1>
+    <form action="backend.php" target="_blanck">
+        <div>
+            Name: <input type="text" name="MyName">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="MyRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="MyEmail">
+        </div>
+        <br>
+        <div>
+            Date Of Birth: <input type="date" name="MyDOB">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="MyAge">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write About Yourself: <br><textarea name="MyDetails" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Dropdown">Dropdown</label>
+            <select name="MyDropdown" id="Dropdown">
+                <option value="Drop1">1</option>
+                <option value="Drop2">2</option>
+                <option value="Drop3">3</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Are you Human: <input type="checkbox" name="Human">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
 </body>
 </html>
