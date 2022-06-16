@@ -12,7 +12,6 @@
     ]
   },
   "hosting": {
-    "site": "valdevlops",
     "public": "public",
     "ignore": [
       "firebase.json",
